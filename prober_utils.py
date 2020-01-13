@@ -112,6 +112,7 @@ def make_hello(extensions=tuple()):
     #hexdump(record.bytes)
     return record.bytes
 
+<<<<<<< HEAD
 def make_pfs_hello_1234(extensions=tuple()):
     hello = ClientHelloMessage.create(TLSRecord.TLS1_0,
                                       '01234567890123456789012345678901',
@@ -124,6 +125,9 @@ def make_pfs_hello_1234(extensions=tuple()):
 
     #hexdump(record.bytes)
     return record.bytes
+=======
+
+>>>>>>> kotak
     
 def make_pfs_hello(extensions=tuple()):
     hello = ClientHelloMessage.create(TLSRecord.TLS1_0,
